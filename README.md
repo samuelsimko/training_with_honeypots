@@ -3,11 +3,9 @@
 # Training with Honeypots
 ### Reshaping How LLMs Fail Under Adversarial Attacks
 
-[![Paper](https://img.shields.io/badge/Paper-OpenReview-b31b1b.svg)](https://openreview.net/forum?id=SaSbv33Mem)
-[![PDF](https://img.shields.io/badge/PDF-OpenReview-b31b1b.svg)](https://openreview.net/pdf?id=SaSbv33Mem)
-[![Venue](https://img.shields.io/badge/ICML-2026-1e3a8a.svg)](https://icml.cc/)
-[![Python](https://img.shields.io/badge/Python-3.10-3776ab.svg)](https://www.python.org/)
-[![Dataset](https://img.shields.io/badge/🤗%20Dataset-coming%20soon-ffce00.svg)](#dataset)
+[![OpenReview](https://img.shields.io/badge/OpenReview-SaSbv33Mem-b31b1b.svg)](https://openreview.net/forum?id=SaSbv33Mem)
+
+## 📄 [Read the paper (PDF)](https://openreview.net/pdf?id=SaSbv33Mem)
 
 **Samuel Simko · Punya Syon Pandey · Zhijing Jin · Bernhard Schölkopf**
 
@@ -17,10 +15,10 @@ ETH Zürich · Max Planck Institute for Intelligent Systems · University of Tor
 
 ---
 
-> **We push LLMs to fail in non-actionable ways when jailbroken.** This not only increases the
-> robustness of defenses, but makes the attacks that *do* succeed far less actionable in practice.
+In this work, we push LLMs to fail in non-actionable ways when jailbroken. This not only increases the
+robustness of defenses, but makes the attacks that *do* succeed far less actionable in practice.
 
-Automated red-teaming of LLMs commonly relies on **attack success rate (ASR)** as a proxy for
+Automated red-teaming of LLMs commonly relies on attack success rate (ASR) as a proxy for
 real-world harm, implicitly assuming that judge-detected violations correspond to actionable risk.
 In practice, safety judges are imperfect, and outputs that satisfy automated criteria for harm vary
 widely in operational usefulness. Inspired by **honeypots in computer security**, we construct
@@ -30,14 +28,14 @@ fail under attack improves overall safety — reducing both the real-world impac
 harmful failures — and serves as a practical complement to ASR-based evaluation.
 
 <div align="center">
-  <img src="assets/poster.png" alt="Training with Honeypots — ICML 2026 poster" width="820">
+  <img src="assets/honeypots_poster.png" alt="Training with Honeypots — ICML 2026 poster" width="820">
 </div>
 
 ## Links
 
 - 📄 **Paper (OpenReview):** https://openreview.net/forum?id=SaSbv33Mem
 - 📑 **PDF:** https://openreview.net/pdf?id=SaSbv33Mem
-- 🖼️ **Poster:** [`assets/poster.png`](assets/poster.png)
+- 🖼️ **Poster:** [`assets/honeypots_poster.png`](assets/honeypots_poster.png)
 - 🤗 **Dataset:** *(released on the Hugging Face Hub after the conference — see [Dataset](#dataset))*
 
 ## Method in one line
