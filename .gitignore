@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Large datasets — released on the Hugging Face Hub (see data/README.md)
+data/honeypots_qwen_fixed.jsonl
+data/cb_train_honeypots.json
+data/circuit_breakers_train.json
+eval_probs/circuit_breakers_training_dataset_with_sr_scores.jsonl
+
+# Model checkpoints / adapters / logs
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+defended_model_sft*/
+results/
+wandb/
+outputs/
