@@ -4,6 +4,7 @@
 ### Reshaping How LLMs Fail Under Adversarial Attacks
 
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-b31b1b.svg)](https://openreview.net/forum?id=SaSbv33Mem)
+[![PDF](https://img.shields.io/badge/PDF-OpenReview-b31b1b.svg)](https://openreview.net/pdf?id=SaSbv33Mem)
 [![Venue](https://img.shields.io/badge/ICML-2026-1e3a8a.svg)](https://icml.cc/)
 [![Python](https://img.shields.io/badge/Python-3.10-3776ab.svg)](https://www.python.org/)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-coming%20soon-ffce00.svg)](#dataset)
@@ -34,7 +35,8 @@ harmful failures — and serves as a practical complement to ASR-based evaluatio
 
 ## Links
 
-- 📄 **Paper:** https://openreview.net/forum?id=SaSbv33Mem
+- 📄 **Paper (OpenReview):** https://openreview.net/forum?id=SaSbv33Mem
+- 📑 **PDF:** https://openreview.net/pdf?id=SaSbv33Mem
 - 🖼️ **Poster:** [`assets/poster.png`](assets/poster.png)
 - 🤗 **Dataset:** *(released on the Hugging Face Hub after the conference — see [Dataset](#dataset))*
 
@@ -121,11 +123,12 @@ by design — see [`data/README.md`](data/README.md).
 ## Citation
 
 ```bibtex
-@inproceedings{simko2026honeypots,
-  title     = {Training with Honeypots: Reshaping How LLMs Fail Under Adversarial Attacks},
-  author    = {Simko, Samuel and Pandey, Punya Syon and Jin, Zhijing and Sch{\"o}lkopf, Bernhard},
-  booktitle = {International Conference on Machine Learning (ICML)},
-  year      = {2026},
-  url       = {https://openreview.net/forum?id=SaSbv33Mem}
+@inproceedings{
+simko2026training,
+title={Training with Honeypots: Reshaping How {LLM}s Fail Under Adversarial Attacks},
+author={Samuel Simko and Punya Syon Pandey and Zhijing Jin and Bernhard Sch{\"o}lkopf},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=SaSbv33Mem}
 }
 ```
